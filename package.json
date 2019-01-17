@@ -1,0 +1,23 @@
+{
+  "name": "poc-api",
+  "version": "1.0.0",
+  "description": "poc-api",
+  "main": "user.js",
+  "scripts": {
+    "start": "nodemon ./services/user.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mssql": "^4.3.0"
+  },
+  "Connection": {
+    "user": "u_olaadmin",
+    "password": "u_0l@@dm1n",
+    "server": "OLESQLHML",
+    "database": "BSIAD"
+  }
+}
